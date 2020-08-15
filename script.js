@@ -64,7 +64,7 @@ handleMove();
 function drawBoard(height,width,array) {
     var rowheight = 800/width;
     var rowwidth = 800/width;
-    var result = '<table align="center"';
+    var result = '<table class="table-bordered table-secondary" align="center"';
     for (i = 1; i < (height + 1); i++) {
         result += '<tr id="row' + i + '">';
         for (j = 1; j < (width + 1); j++) {
